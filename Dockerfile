@@ -1,3 +1,4 @@
 FROM ubuntu
-VOLUME ["/myvolume1"]
+VOLUME ["/myvol"]
+WORKDIR /myvol
 
